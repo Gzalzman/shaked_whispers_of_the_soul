@@ -179,14 +179,27 @@ ul { margin: 0; padding: 0; }
 }
 
 .hero-sub {
-  font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+  font-size: clamp(1.2rem, 3vw, 1.45rem);
   font-weight: 600;
   margin: 0;
-  line-height: 1.45;
+  line-height: 1.5;
+}
+
+.hero-topics {
+  display: inline-block;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+
+.topic-sep {
+  color: var(--blush);
+  margin: 0 4px;
+  font-weight: 400;
 }
 
 .hero-desc {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--muted);
   margin: 0;
 }
@@ -200,7 +213,7 @@ ul { margin: 0; padding: 0; }
   background: rgba(243, 235, 225, .90);
   border-radius: var(--r-sm);
   padding: 8px 14px;
-  font-size: .8rem;
+  font-size: .88rem;
   font-weight: 600;
   color: var(--muted);
   max-width: 100%;
@@ -209,7 +222,7 @@ ul { margin: 0; padding: 0; }
 .sep { color: var(--blush); }
 
 .hero-includes {
-  font-size: .88rem;
+  font-size: .95rem;
   font-weight: 500;
   color: var(--clay-dark);
   margin: 0;
@@ -230,6 +243,7 @@ ul { margin: 0; padding: 0; }
   max-width: 300px;
   min-height: 52px;
   gap: 10px;
+  font-size: 1.05rem;
 }
 
 /* WhatsApp icon: fixed size, never shrinks */
@@ -599,8 +613,8 @@ ul { margin: 0; padding: 0; }
 }
 
 .facilitator-img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--blush);
