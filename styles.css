@@ -179,7 +179,7 @@ ul { margin: 0; padding: 0; }
 }
 
 .hero-sub {
-  font-size: clamp(1.2rem, 3vw, 1.45rem);
+  font-size: clamp(18px, 2vw, 28px);
   font-weight: 600;
   margin: 0;
   line-height: 1.5;
