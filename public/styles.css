@@ -594,6 +594,10 @@ ul { margin: 0; padding: 0; }
 /* =====================
    FACILITATORS
    ===================== */
+.facilitator-img img.tamara-portrait {
+  transform: scale(1.5);
+  transform-origin: center center;
+}
 
 .facilitators-grid {
   display: grid;
